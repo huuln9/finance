@@ -46,10 +46,10 @@
                     <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-credit-card"></i> <span class="nav-text">Quản lý nạp tiền</span></a>
                         <ul aria-expanded="false">
                             <li>
-                                <a href="<?php echo $appRootURL ?>/invest/recharge"><i class="mdi mdi-history"></i> Xem lịch sử</a>
+                                <a href="<?php echo $appRootURL ?>/invest/viewhistory"><i class="mdi mdi-history"></i> Xem lịch sử</a>
                             </li>
                             <li>
-                                <a href="<?php echo $appRootURL ?>/invest/rechargesd"><i class="mdi mdi-credit-card-plus"></i> Nạp tiền</a>
+                                <a href="<?php echo $appRootURL ?>/invest/recharge"><i class="mdi mdi-credit-card-plus"></i> Nạp tiền</a>
                             </li>
                         </ul>
                     </li>
@@ -209,7 +209,7 @@
         </div>
         <!-- #/ sidebar -->
         <!-- content body -->
-        <?php require_once './mvc/views/pages/' . $data['pages'] . '.php'; ?>
+        <?php require_once './mvc/views/pages/'.$data['pages'].'.php'; ?>
         <!-- #/ content body -->
         <!-- footer -->
         <div class="footer">

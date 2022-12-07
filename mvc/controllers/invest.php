@@ -4,12 +4,16 @@ class Invest extends Controller {
         $this->view("invest", []);
     }
     
-    function Recharge() {
+    function ViewHistory() {
         $this->view("invest", [
-            "pages" => "recharge"
+            "pages" => "recharge_list"
         ]);
     }
 
-
+    function Recharge() {
+        $this->view("invest", [
+            "pages" => "recharge_add"
+        ]);
+    }
 }
 ?>
