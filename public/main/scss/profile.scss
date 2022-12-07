@@ -3,7 +3,7 @@
 .photo-content{
     position: relative;
     .cover-photo{
-        background: url(../../assets/images/profile/cover.jpg);
+        background: url(<?php echo $appRootURL ?>/public/home/images/profile/cover.jpg);
         background-size: cover;
         background-position: center;
         min-height: 250px;

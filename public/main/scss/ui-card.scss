@@ -32,14 +32,14 @@
 
 
 .card-bg-img-1{
-    background: url(../../assets/images/big/img6.jpg);
+    background: url(<?php echo $appRootURL ?>/public/home/images/big/img6.jpg);
     background-position: center;
     background-size: cover;
     min-height: 300px;
 }
 
 .card-bg-img-2{
-    background: url(../../assets/images/big/img6.jpg);
+    background: url(<?php echo $appRootURL ?>/public/home/images/big/img6.jpg);
     background-position: center;
     background-size: cover;
     min-height: 400px;

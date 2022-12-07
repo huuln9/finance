@@ -2899,7 +2899,7 @@ svg.pulse-svg .third-circle {
   position: relative;
 }
 .photo-content .cover-photo {
-  background: url(../../assets/images/profile/cover.jpg);
+  background: url(<?php echo $appRootURL ?>/public/home/images/profile/cover.jpg);
   background-size: cover;
   background-position: center;
   min-height: 250px;
@@ -3309,14 +3309,14 @@ svg.pulse-svg .third-circle {
 }
 
 .card-bg-img-1 {
-  background: url(../../assets/images/big/img6.jpg);
+  background: url(<?php echo $appRootURL ?>/public/home/images/big/img6.jpg);
   background-position: center;
   background-size: cover;
   min-height: 300px;
 }
 
 .card-bg-img-2 {
-  background: url(../../assets/images/big/img6.jpg);
+  background: url(<?php echo $appRootURL ?>/public/home/images/big/img6.jpg);
   background-position: center;
   background-size: cover;
   min-height: 400px;
@@ -5386,7 +5386,7 @@ input[type=checkbox]:not(:disabled) ~ .lever:active::after {
 }
 
 #login-page2 body {
-  background: url(../../assets/images/background/login-register2.jpg);
+  background: url(<?php echo $appRootURL ?>/public/home/images/background/login-register2.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -5405,7 +5405,7 @@ input[type=checkbox]:not(:disabled) ~ .lever:active::after {
 }
 
 #login-page1 body {
-  background: url(../../assets/images/background/login-register.jpg);
+  background: url(<?php echo $appRootURL ?>/public/home/images/background/login-register.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
