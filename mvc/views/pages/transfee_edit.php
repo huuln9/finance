@@ -22,7 +22,7 @@
                                 <div class="form-group">
                                     <input type="number" class="form-control input-default" placeholder="Phần trăm">
                                 </div>
-                                <button type="button" class="btn btn-rounded btn-success"><span class="btn-icon-left"><i class="mdi mdi-playlist-plus color-success"></i> </span>Thêm mới</button>
+                                <button type="button" class="btn btn-rounded btn-success"><span class="btn-icon-left"><i class="mdi mdi-content-save color-success"></i> </span>Lưu</button>
                             </form>
                         </div>
                     </div>
