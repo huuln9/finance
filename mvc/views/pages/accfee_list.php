@@ -2,13 +2,13 @@
     <div class="container">
         <div class="row page-titles">
             <div class="col p-0">
-                <h4>Đầu tư, <span>Quản lý nạp tiền</span></h4>
+                <h4>Đầu tư, <span>Phí quản lý tài khoản</span></h4>
             </div>
             <div class="col p-0">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="javascript:void(0)">Quản lý nạp tiền</a>
+                    <li class="breadcrumb-item"><a href="javascript:void(0)">Phí quản lý tài khoản</a>
                     </li>
-                    <li class="breadcrumb-item active">Xem lịch sử</li>
+                    <li class="breadcrumb-item active">Lịch sử</li>
                 </ol>
             </div>
         </div>
@@ -19,22 +19,23 @@
                     <div class="card-body">
                         <div class="card-title">
                             <h4>Lịch sử</h4>
+                            <p class="f-s-13">Tổng: 16.000.000 VND</p>
                         </div>
                         <div class="table-responsive">
                             <table class="table table-bordered">
                                 <thead>
                                     <tr>
-                                        <th>#</th>
-                                        <th>Ngày</th>
-                                        <th>Số tiền</th>
+                                        <th>Id</th>
+                                        <th>Tháng</th>
+                                        <th>Số tiền (VND)</th>
                                         <th>Thao tác</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <th>1</th>
-                                        <td>January 22</td>
-                                        <td class="color-primary">$21.56</td>
+                                        <td>January</td>
+                                        <td>2.000.000</td>
                                         <td>
                                             <button type="button" class="btn btn-rounded btn-success"><span class="btn-icon-left"><i class="fa fa-edit color-success"></i> </span>Cập nhật</button>
                                             <button type="button" class="btn btn-rounded btn-danger"><span class="btn-icon-left"><i class="fa fa-edit color-danger"></i> </span>Xóa</button>

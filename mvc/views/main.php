@@ -42,14 +42,44 @@
         <div class="nk-sidebar">
             <div class="nk-nav-scroll">
                 <ul class="metismenu" id="menu">
-                    <li class="nav-label">Đầu tư</li>
-                    <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-credit-card"></i> <span class="nav-text">Quản lý nạp tiền</span></a>
+                    <li class="nav-label">Đầu tư (chứng khoán)</li>
+                    <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-cash"></i> <span class="nav-text">Dòng tiền</span></a>
                         <ul aria-expanded="false">
                             <li>
-                                <a href="<?php echo $appRootURL ?>/invest/viewhistory"><i class="mdi mdi-history"></i> Xem lịch sử</a>
+                                <a href="<?php echo $appRootURL ?>/cashflow/viewhistory"><i class="mdi mdi-history"></i> Lịch sử</a>
                             </li>
                             <li>
-                                <a href="<?php echo $appRootURL ?>/invest/recharge"><i class="mdi mdi-credit-card-plus"></i> Nạp tiền</a>
+                                <a href="<?php echo $appRootURL ?>/cashflow/edit"><i class="mdi mdi-sync"></i> Nạp - rút</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-certificate"></i> <span class="nav-text">Cổ phiếu</span></a>
+                        <ul aria-expanded="false">
+                            <li>
+                                <a href="<?php echo $appRootURL ?>/stock/viewhistory"><i class="mdi mdi-history"></i> Lịch sử</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo $appRootURL ?>/stock/edit"><i class="mdi mdi-sync"></i> Mua - bán</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-cash-100"></i> <span class="nav-text">Mức phí giao dịch</span></a>
+                        <ul aria-expanded="false">
+                            <li>
+                                <a href="<?php echo $appRootURL ?>/transfee/viewhistory"><i class="mdi mdi-menu"></i> Danh sách</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo $appRootURL ?>/transfee/edit"><i class="mdi mdi-playlist-plus"></i> Thêm mới</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-cash-usd"></i> <span class="nav-text">Phí quản lý tài khoản</span></a>
+                        <ul aria-expanded="false">
+                            <li>
+                                <a href="<?php echo $appRootURL ?>/accfee/viewhistory"><i class="mdi mdi-history"></i> Lịch sử</a>
+                            </li>
+                            <li>
+                                <a href="<?php echo $appRootURL ?>/accfee/edit"><i class="mdi mdi-pen"></i> Ghi lại</a>
                             </li>
                         </ul>
                     </li>

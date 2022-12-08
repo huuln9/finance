@@ -1,8 +1,8 @@
 <?php
 class App {
 
-    protected $controller = "home";
-    protected $action = "show";
+    protected $controller = "cashflow";
+    protected $action = "viewhistory";
     protected $params = [];
 
     function __construct() {
