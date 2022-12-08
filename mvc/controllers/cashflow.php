@@ -1,14 +1,14 @@
 <?php
 class CashFlow extends Controller {
-    function ViewHistory() {
+    function List() {
         $this->view("main", [
             "pages" => "cashflow_list"
         ]);
     }
 
-    function Edit() {
+    function Add() {
         $this->view("main", [
-            "pages" => "cashflow_edit"
+            "pages" => "cashflow_add"
         ]);
     }
 }

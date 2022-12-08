@@ -1,14 +1,14 @@
 <?php
 class AccFee extends Controller {
-    function ViewHistory() {
+    function List() {
         $this->view("main", [
             "pages" => "accfee_list"
         ]);
     }
 
-    function Edit() {
+    function Add() {
         $this->view("main", [
-            "pages" => "accfee_edit"
+            "pages" => "accfee_add"
         ]);
     }
 }

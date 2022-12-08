@@ -1,14 +1,14 @@
 <?php
 class Stock extends Controller {
-    function ViewHistory() {
+    function List() {
         $this->view("main", [
             "pages" => "stock_list"
         ]);
     }
 
-    function Edit() {
+    function Add() {
         $this->view("main", [
-            "pages" => "stock_edit"
+            "pages" => "stock_add"
         ]);
     }
 }

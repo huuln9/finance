@@ -26,8 +26,7 @@
                                 <div class="form-group">
                                     <input type="number" class="form-control input-default" placeholder="Nhập số tiền">
                                 </div>
-                                <button type="button" class="btn btn-rounded btn-success"><span class="btn-icon-left"><i class="mdi mdi-plus color-success"></i> </span>Nạp</button>
-                                <button type="button" class="btn btn-rounded btn-danger"><span class="btn-icon-left"><i class="mdi mdi-minus color-danger"></i> </span>Rút</button>
+                                <button type="button" class="btn btn-rounded btn-success"><span class="btn-icon-left"><i class="mdi mdi-content-save color-success"></i> </span>Lưu</button>
                             </form>
                         </div>
                     </div>

@@ -1,14 +1,14 @@
 <?php
 class TransFee extends Controller {
-    function ViewHistory() {
+    function List() {
         $this->view("main", [
             "pages" => "transfee_list"
         ]);
     }
 
-    function Edit() {
+    function Add() {
         $this->view("main", [
-            "pages" => "transfee_edit"
+            "pages" => "transfee_add"
         ]);
     }
 }

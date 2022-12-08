@@ -2,7 +2,7 @@
 class App {
 
     protected $controller = "cashflow";
-    protected $action = "viewhistory";
+    protected $action = "list";
     protected $params = [];
 
     function __construct() {
