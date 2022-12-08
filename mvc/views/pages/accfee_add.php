@@ -19,8 +19,9 @@
                         <h4 class="card-title">Ghi lại</h4>
                         <div class="basic-form">
                             <form>
-                            <div class="form-group">
-                                <input type="month" id="datePicker" value="<?php echo date('Y-m'); ?>" class="form-control input-default">
+                                <div class="form-group">
+                                    <label>Tháng</label>
+                                    <input type="month" value="<?php echo date('Y-m'); ?>" class="form-control input-default">
                                 </div>
                                 <div class="form-group">
                                     <input type="number" class="form-control input-default" placeholder="Nhập số tiền">

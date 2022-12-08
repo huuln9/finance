@@ -21,7 +21,8 @@
                         <div class="basic-form">
                             <form>
                                 <div class="form-group">
-                                    <input type="date" id="datePicker" value="<?php echo date('Y-m-d'); ?>" class="form-control input-default">
+                                    <label>Ngày</label>
+                                    <input type="date" value="<?php echo date('Y-m-d'); ?>" class="form-control input-default">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" class="form-control input-default" placeholder="Mã">

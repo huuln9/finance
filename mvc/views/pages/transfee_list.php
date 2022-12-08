@@ -31,7 +31,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th>2</th>
+                                        <td>2</td>
                                         <td>0.147</td>
                                         <td>
                                             <button type="button" class="btn btn-rounded btn-success"><span class="btn-icon-left"><i class="fa fa-edit color-success"></i> </span>Cập nhật</button>

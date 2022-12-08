@@ -87,10 +87,10 @@
                     <li><a class="has-arrow" href="#" aria-expanded="false"><i class="mdi mdi-cash-multiple"></i> <span class="nav-text">Lương thưởng</span></a>
                         <ul aria-expanded="false">
                             <li>
-                                <a href="<?php echo $appRootURL ?>/salary/list"><i class="mdi mdi-set-left"></i> Theo tháng</a>
+                                <a href="<?php echo $appRootURL ?>/salary/list"><i class="mdi mdi-history"></i> Lịch sử</a>
                             </li>
                             <li>
-                                <a href="<?php echo $appRootURL ?>/salary/add"><i class="mdi mdi-set-right"></i> Thực lãnh</a>
+                                <a href="<?php echo $appRootURL ?>/salary/add"><i class="mdi mdi-pen"></i> Ghi lại</a>
                             </li>
                         </ul>
                     </li>

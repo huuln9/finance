@@ -37,7 +37,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th>1</th>
+                                        <td>1</td>
                                         <td>January 22</td>
                                         <td>PVT</td>
                                         <td>$21.56</td>

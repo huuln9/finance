@@ -33,7 +33,7 @@
                                 </thead>
                                 <tbody>
                                     <tr>
-                                        <th>1</th>
+                                        <td>1</td>
                                         <td>January 22</td>
                                         <td class="color-success">2.000.000</td>
                                         <td>
@@ -42,7 +42,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th>2</th>
+                                        <td>2</td>
                                         <td>January 23</td>
                                         <td class="color-danger">-1.200.000</td>
                                         <td>
